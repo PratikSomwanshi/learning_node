@@ -6,8 +6,8 @@ const { ServerConfig } = require("./config/index");
 
 const app = express();
 
-app.use(express.json())
-app.use(express.urlencoded())
+app.use(express.json());
+app.use(express.urlencoded());
 
 app.use("/api", apiRoutes);
 
